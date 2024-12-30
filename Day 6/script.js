@@ -108,11 +108,5 @@
 // }
 
 
-/**
- * Extracting String Characters
- */
-
-let text = "Hello JavaScript, Welcome to our new Course of JavaScript";
-
 
 
