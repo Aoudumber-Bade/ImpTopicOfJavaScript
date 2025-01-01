@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Events in JS</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Inline Event</h1>
+        <div class="box inline">
+            <button class="btn" onclick="alert('Welcome!')">Greeting</button>
+            <button class="btn" ondblclick="alert('double click')">Greeting Again</button>
+            <button class="btn" onmouseover="alert('mouse hover')">Greeting</button>
+        </div>
+        <h1>DOM Event Handler</h1>
+        <div class="box inline">
+            <button class="btn" id="mybtn1">Greeting</button>
+            <button class="btn" id="mybtn2">Greeting Again</button>
+        </div>
+        <h1>addEventListener Event Handler</h1>
+        <div class="box inline">
+            <button class="btn" id="mybtn3" >Greeting</button>
+            <button class="btn" id="mybtn4">Greeting Again</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
