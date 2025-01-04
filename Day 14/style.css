@@ -1,0 +1,39 @@
+
+body {
+    background: linear-gradient(to right, #f6910d, #ff1350);
+    font-family: cursive;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    color: #fff;
+}
+
+input,.btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: #fff;
+}
+
+.todo_list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
